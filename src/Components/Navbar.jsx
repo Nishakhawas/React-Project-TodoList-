@@ -14,6 +14,7 @@ export default function Navbar() {
         <ul className='flex gap-8 mx-9 '>
             <li  className='cursor-pointer  hover:font-bold' onClick= {()=>{setMenu("home")}}> <Link style={{textDecoration:'none'}} to ='/home'>Home</Link>{menu==="home"}</li>
             <li className='cursor-pointer hover:font-bold' onClick= {()=>{setMenu("your task")}}> <Link style={{textDecoration:'none'}} to ='/yourtasks'>TodoTask</Link>{menu==="your task"}</li>
+            <li className='cursor-pointer hover:font-bold' onClick= {()=>{setMenu("your task")}}> <Link style={{textDecoration:'none'}} to ='/yourtasks'>Login</Link>{menu==="your task"}</li>
         </ul>
        
     </nav>
